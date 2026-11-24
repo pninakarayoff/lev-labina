@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="https://cdn.userway.org/widget.js" data-account="VflZTiJvoE"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>שירותים ומסלולי ליווי - פנינה קריוף AI לעסקים קטנים</title>
+    <title>פתרונות ושירותים | פנינה קריוף AI לעסקים קטנים</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,11 +68,11 @@
 
         .page-header { text-align: center; margin-bottom: 4rem; }
         .page-header h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 1rem; }
-        .page-header p { font-size: 1.3rem; opacity: 0.8; }
+        .page-header p { font-size: 1.3rem; opacity: 0.85; max-width: 780px; margin: 0 auto; }
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
             gap: 2rem;
         }
 
@@ -115,6 +115,10 @@
         .btn-gold { background-color: var(--accent-gold); border-color: var(--accent-gold); }
         .btn-gold:hover { background-color: #E8786E; border-color: #E8786E; }
 
+        .service-process { margin-top: 3rem; padding: 3rem 2rem; border-radius: 25px; background: #fff; text-align: center; border: 1px solid var(--sand-dark); }
+        .service-process h2 { font-size: 2rem; margin-bottom: 1rem; }
+        .service-process p { max-width: 760px; font-size: 1.15rem; margin: 0 auto 1.5rem; }
+        @media (max-width: 768px) { .container { padding: 2rem 1rem; } .page-header { margin-bottom: 2rem; } .page-header h1 { font-size: 2rem; } .service-card { padding: 2rem 1.25rem; } .service-process { padding: 2rem 1.25rem; } }
         footer {
             padding: 80px 0; border-top: 1px solid var(--sand-dark);
             text-align: center; background-color: var(--white);
@@ -155,48 +159,46 @@
     <button class="mobile-menu-toggle" type="button" aria-label="פתיחת תפריט" aria-expanded="false" aria-controls="mobile-site-nav">☰</button>
 </header>
 
-    <div class="container">
+    <main class="container">
         <div class="page-header">
-            <h1>איך נוכל לעבוד יחד?</h1>
-            <p>בוחרים את המסלול המדויק להטמעת בינה מלאכותית בעסק שלכם.</p>
+            <h1>פתרונות שעובדים עם העסק שלכם.</h1>
+            <p>לא מתחילים מהכלי הכי חדש. מתחילים מהצורך העסקי, ובונים סביבו את הפתרון הנכון.</p>
         </div>
 
         <div class="services-grid">
-            <div class="service-card" style="border-color: var(--accent-gold); border-bottom-width: 8px;">
-                <span class="new-badge">PREMIUM</span>
-                <i class="fas fa-robot" style="color: var(--accent-gold);"></i>
-                <h2 style="color: var(--accent-gold);">סוכני AI בהתאמה אישית</h2>
-                <p>בניית ישויות דיגיטליות אוטונומיות שמנהלות עבורכם תהליכים, מחקרים ותקשורת - בדיוק בקול שלכם וב-DNA של העסק.</p>
-                <a href="agents.html" class="btn-action btn-gold">לפרטים על הסוכנים</a>
-            </div>
+            <section class="service-card">
+                <i class="fas fa-diagram-project" aria-hidden="true"></i>
+                <h2>פתרונות AI ואוטומציות</h2>
+                <p>מחברים בין מערכות, מסדרים תהליכים שחוזרים על עצמם ומפחיתים עבודה ידנית. ממעקב אחר פניות ועד העברת מידע ופעולות בין כלים עסקיים - בהתאם למה שהעסק באמת צריך.</p>
+                <a href="contact.html" class="btn-action">בואו נדבר על התהליך שלכם</a>
+            </section>
 
-            <div class="service-card">
-                <i class="fas fa-bolt"></i>
-                <h2>ספרינט הזיקוק ⚡</h2>
-                <p>4 שעות עבודה מרוכזות (1:1) שבהן אנחנו בונים יחד את כל התשתית הדיגיטלית שלכם: מאתר ועד אוטומציות.</p>
-                <a href="https://sprint.pnina-karayoff.com/" target="_blank" class="btn-action">מידע על הספרינט</a>
-            </div>
+            <section class="service-card">
+                <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                <h2>מערכות וכלים דיגיטליים</h2>
+                <p>פיתוח פתרונות מותאמים, כלי עבודה חכמים וממשקים דיגיטליים שעוזרים להפוך רעיון או צורך מעשי לפתרון שאפשר להשתמש בו.</p>
+                <a href="contact.html" class="btn-action">יש לכם רעיון? בואו נבחן אותו</a>
+            </section>
 
-            <div class="service-card">
-                <i class="fas fa-seedling"></i>
-                <h2>ליווי אסטרטגי אישי</h2>
-                <p>תהליך עומק שמחבר בין עולם השיווק, התודעה והטכנולוגיה - בקצב ובדיוק שלכם לאורך זמן.</p>
-                <a href="contact.html" class="btn-action">לתיאום שיחה</a>
-            </div>
-
-            <div class="service-card">
-                <i class="fas fa-compass"></i>
-                <h2>שיחת מיקוד וכלים</h2>
-                <p>מפגש קצר ומדויק לעשיית סדר, קבלת כיוון והיכרות עם כלי ה-AI שמתאימים לכם בדיוק עכשיו.</p>
-                <a href="http://products.pnina-karayoff.com/" target="_blank" class="btn-action">עזרו לי לבחור</a>
-            </div>
+            <section class="service-card">
+                <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                <h2>הדרכה והטמעה</h2>
+                <p>היכרות מעשית עם כלי AI, התאמתם למשימות בעסק והדרכה בגובה העיניים. המטרה היא לא רק להכיר את הטכנולוגיה - אלא לדעת איך להפיק ממנה ערך בעבודה היומיומית.</p>
+                <a href="contact.html" class="btn-action">בואו נדבר על הדרכה</a>
+            </section>
         </div>
-    </div>
+
+        <section class="service-process">
+            <h2>איך מתחילים?</h2>
+            <p>מספרים לי מה הייתם רוצים לשפר בעסק. יחד בוחנים את התהליך, את הכלים שכבר קיימים ואת האפשרויות שעשויות להתאים. לא כל צורך דורש מערכת חדשה, ולא כל פתרון חייב להיות מורכב.</p>
+            <a href="contact.html" class="btn-action">ליצירת קשר</a>
+        </section>
+    </main>
 
     <footer>
         <p style="font-family: 'Heebo', sans-serif; font-weight: 800; font-size: 24px; color: var(--sage-green); margin-bottom: 10px;">פנינה קריוף AI לעסקים קטנים</p>
         <p style="font-size: 1rem; margin-bottom: 20px; opacity: 0.8; max-width: 600px; margin-left: auto; margin-right: auto; color: var(--deep-text);">
-            מרכז להטמעת בינה מלאכותית בעולם הטיפול, האימון והעסקים הרכים.
+            פתרונות AI, אוטומציות ומערכות דיגיטליות לעסקים קטנים.
         </p>
         <div class="legal-links">
             <a href="accessibility.html">הצהרת נגישות</a> | 
