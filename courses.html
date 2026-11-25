@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <script src="https://cdn.userway.org/widget.js" data-account="VflZTiJvoE"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>קורסים וכלים דיגיטליים - פנינה קריוף AI לעסקים קטנים</title>
+    <title>ללמוד ולעבוד עם AI | פנינה קריוף</title>
+    <meta name="description" content="הדרכות, סדנאות וכלים מעשיים לשימוש ב-AI בעסקים קטנים - מאפליקציית PromptBook ועד הטמעת כלים ותהליכים.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -237,9 +238,31 @@
             text-decoration: underline;
         }
 
+        .eyebrow { color: #2D6BD1; font-weight: 700; font-size: .94rem !important; opacity: 1 !important; margin-bottom: 12px; }
+        .page-header { max-width: 830px; margin-inline: auto; }
+        .page-header h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); line-height: 1.3; }
+        .page-header p { max-width: 780px; margin: 0 auto; }
+        .section-intro { text-align:center; margin-bottom: 30px; }
+        .section-intro h2 { font-size: 2rem; margin-bottom: 8px; }
+        .section-intro p { font-size: 1.12rem; }
+        .courses-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+        .course-content { padding: 1.75rem; }
+        .course-content h2 { font-size: 1.5rem; }
+        .course-image { height: 200px; }
+        .course-label { color:#2D6BD1; font-weight:700; font-size:.85rem; margin-bottom:7px; display:inline-block; }
+        .course-btn { margin-top:auto; align-self:stretch; padding:.8rem 1.4rem; }
+        .info-box { max-width:900px; margin:60px auto 0; background:#231B35; padding:38px; color:white; text-align:center; border-radius:24px; }
+        .info-box h2 { color:white; font-size:1.9rem; margin-bottom:12px; }
+        .info-box p { margin-bottom:22px; }
+        .info-box .course-btn { background:#F5867D; color:#231B35; }
+        @media (max-width: 1020px) { .courses-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
         @media (max-width: 768px) {
             .page-header h1 { font-size: 2.5rem; }
             .courses-grid { grid-template-columns: 1fr; }
+            .container { padding: 2.5rem 1.1rem; }
+            .course-content { padding: 1.5rem; }
+            .info-box { padding: 26px 20px; }
+            .page-header p { font-size: 1.1rem; }
             nav a { display: block; margin: 0.8rem 0; }
         }
     
@@ -271,7 +294,7 @@
     <a href="index.html">בית</a>
     <a href="about.html">אודות</a>
     <a href="services.html">שירותים</a>
-    <a href="agents.html">סוכני AI 🤖</a>
+    <a href="agents.html">מערכות AI חכמות</a>
     <a href="products.html" class="ghost-btn">מאיפה מתחילים? 🧭</a>
     <a href="courses.html">קורסים וכלים</a>
     <a href="gifts.html">מתנות והשראה ✨</a>
@@ -280,82 +303,71 @@
 <button class="mobile-menu-toggle" type="button" aria-label="פתיחת תפריט" aria-expanded="false" aria-controls="mobile-site-nav">☰</button>
 </header>
 
-    <div class="container">
+    <main class="container">
         <div class="page-header">
-            <h1>קורסים וכלים דיגיטליים</h1>
-            <p>הידע שלי, הקצב שלך. קורסים, אפליקציות וכלים מעשיים לשימוש בבינה מלאכותית.</p>
+            <p class="eyebrow">ללמוד, להתנסות וליישם</p>
+            <h1>AI לא צריך להישאר רק רעיון.</h1>
+            <p>כלים מעשיים, הדרכות וסדנאות שעוזרים להפוך את הבינה המלאכותית לחלק מהעבודה בעסק - בקצב ובדרך שמתאימים לכם.</p>
         </div>
-
+        <div class="section-intro">
+            <h2>כלים והדרכות</h2>
+            <p>אפשר להתחיל עם כלי מוכן, ללמוד יחד או לבנות דרך עבודה שמותאמת לצרכים שלכם.</p>
+        </div>
         <div class="courses-grid">
-            
-            <div class="course-card" style="border: 2px solid var(--accent-gold); transform: scale(1.02); box-shadow: 0 15px 40px rgba(197, 160, 89, 0.15);">
-                <span class="new-badge" style="background: var(--accent-gold);">המסלול המואץ</span>
-                <img src="sprint.jpg" alt="ספרינט הזיקוק" class="course-image">
+            <article class="course-card">
+                <img src="prompt-book.jpg" alt="אפליקציית 101 PromptBook" class="course-image" loading="lazy">
                 <div class="course-content">
-                    <h2 style="color: var(--accent-gold);">ספרינט הזיקוק ⚡</h2>
-                    <p><strong>הופכים חזון למציאות דיגיטלית ב-4 שעות בלבד.</strong><br>
-                    ליווי אישי מרוכז שבו נבנה לך את כל התשתית: אתר, לוגו, מערכת דיוור ואוטומציה – הכל מוכן לעבודה.</p>
+                    <span class="course-label">כלי דיגיטלי</span>
+                    <h2>101 PromptBook</h2>
+                    <p>אפליקציה עם 101 פרומפטים לשימושים עסקיים שונים. דרך נוחה להתחיל לעבוד עם הנחיות מוכנות ולהתאים אותן לצורך שלכם.</p>
                     <ul class="course-features">
-                        <li>זיקוק מדויק של המותג והמסרים</li>
-                        <li>בנייה טכנית מלאה (Hands-on)</li>
-                        <li>הטמעת כלי AI לייעול העבודה</li>
-                        <li>יציאה עם מוצר עובד ביד</li>
+                        <li>פרומפטים לשיווק, כתיבה וחשיבה עסקית</li>
+                        <li>גישה נוחה מהדפדפן</li>
+                        <li>שימוש עצמאי בקצב שלכם</li>
                     </ul>
-                    <a href="https://sprint.pnina-karayoff.com/" target="_blank" class="course-btn" style="background: var(--accent-gold); width: 100%;">לכל הפרטים והרשמה &larr;</a>
+                    <a href="https://101promptbook.pnina-karayoff.com/" target="_blank" rel="noopener noreferrer" class="course-btn">לצפייה באפליקציה</a>
                 </div>
-            </div>
-
-            <div class="course-card">
-                <span class="new-badge">חדש!</span>
-                <img src="prompt-book.jpg" alt="101 Prompt Book" class="course-image">
+            </article>
+            <article class="course-card">
+                <img src="course-content.jpg" alt="יצירת תוכן עסקי בעזרת AI" class="course-image" loading="lazy">
                 <div class="course-content">
-                    <h2>101 Prompt Book</h2>
-                    <p><strong>האפליקציה שתשנה את איך שאת עובדת עם AI.</strong><br>
-                    במקום לשבור את הראש מה לכתוב ל-ChatGPT, קבלי ספרייה ענקית של הנחיות מוכנות ומקצועיות.</p>
+                    <span class="course-label">הדרכה והתנסות</span>
+                    <h2>תוכן שיווקי עם AI</h2>
+                    <p>איך להשתמש ב-AI כדי לפתח רעיונות, ליצור טקסטים ותוכן חזותי ולשמור על הקול של העסק שלכם.</p>
                     <ul class="course-features">
-                        <li>מאגר ענק של פרומפטים מוכנים</li>
-                        <li>העתקה בלחיצת כפתור</li>
-                        <li>מתאים לשיווק, כתיבה ואסטרטגיה</li>
+                        <li>חשיבה על מסרים וקהל יעד</li>
+                        <li>כתיבה ויצירת תוכן חזותי</li>
+                        <li>יצירת שגרת תוכן שאפשר להתמיד בה</li>
                     </ul>
-                    <a href="https://101promptbook.pnina-karayoff.com/" target="_blank" class="course-btn" style="background: var(--deep-text); width: 100%;">לרכישה מיידית &larr;</a>
+                    <a href="contact.html" class="course-btn">לפרטים על הדרכה</a>
                 </div>
-            </div>
-
-            <div class="course-card">
-                <img src="course-ai.jpg" alt="קורס AI למטפלים" class="course-image">
+            </article>
+            <article class="course-card">
+                <img src="course-ai.jpg" alt="למידה מעשית של כלי AI" class="course-image" loading="lazy">
                 <div class="course-content">
-                    <h2>AI למטפלים</h2>
-                    <p>קורס מקיף ללימוד עבודה עם בינה מלאכותית בעולם הטיפול וההתפתחות האישית.</p>
+                    <span class="course-label">סדנאות והטמעה</span>
+                    <h2>AI בעבודה היומיומית</h2>
+                    <p>לומדים לזהות משימות שאפשר לשפר בעזרת AI, לבחור כלים רלוונטיים ולשלב אותם בצורה מסודרת בתהליכי העבודה.</p>
                     <ul class="course-features">
-                        <li>עבודה מעשית עם GPT וכלי AI</li>
-                        <li>יצירת תכנים טיפוליים</li>
-                        <li>אוטומציות חכמות לעסק</li>
+                        <li>היכרות עם שימושים עסקיים מעשיים</li>
+                        <li>התאמת כלים לצרכים אמיתיים</li>
+                        <li>תהליכי עבודה, סקילים ואוטומציות</li>
                     </ul>
-                    <a href="contact.html" class="course-btn">פרטים נוספים</a>
+                    <a href="contact.html" class="course-btn">לפרטים על סדנה</a>
                 </div>
-            </div>
-
-            <div class="course-card">
-                <img src="course-content.jpg" alt="יצירת תוכן חכם" class="course-image">
-                <div class="course-content">
-                    <h2>יצירת תוכן חכם</h2>
-                    <p>איך ליצור תוכן איכותי ומשמעותי בעזרת כלים דיגיטליים - תוך שמירה על הקול האישי.</p>
-                    <ul class="course-features">
-                        <li>כתיבה יעילה עם AI</li>
-                        <li>יצירת גרפיקה וויזואליה</li>
-                        <li>תכנון ותזמון תכנים</li>
-                    </ul>
-                    <a href="contact.html" class="course-btn">פרטים נוספים</a>
-                </div>
-            </div>
-
+            </article>
         </div>
-    </div>
+        <section class="info-box">
+            <h2>לא חייבים להתחיל מקורס שלם.</h2>
+            <p>לפעמים מפגש ממוקד או הדרכה מעשית על משימה אחת יספיקו כדי להתקדם. אפשר להתחיל בשיחה ולבחון מה באמת מתאים.</p>
+            <a href="contact.html" class="course-btn">בואו נדבר</a>
+        </section>
+    </main>
 
     <footer>
     <p class="brand">פנינה קריוף AI לעסקים קטנים</p>
     <p style="font-size: 1rem; margin-bottom: 20px; opacity: 0.8; max-width: 600px; margin-left: auto; margin-right: auto;">
-        מרכז להטמעת בינה מלאכותית בעולם הטיפול, האימון והעסקים הרכים.
+        פתרונות AI, אוטומציות ומערכות דיגיטליות לעסקים קטנים.
     </p>
     <div class="legal-links">
         <a href="accessibility.html">הצהרת נגישות</a> | 
