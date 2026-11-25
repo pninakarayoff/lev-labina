@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <script src="https://cdn.userway.org/widget.js" data-account="VflZTiJvoE"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>צור קשר - פנינה קריוף AI לעסקים קטנים</title>
+    <title>יצירת קשר | פנינה קריוף AI לעסקים קטנים</title>
+    <meta name="description" content="יש לכם רעיון, תהליך מסורבל או צורך בפתרון AI? צרו קשר עם פנינה קריוף לשיחה על אוטומציות, מערכות וכלים לעסק.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -196,10 +197,24 @@
             text-decoration: underline;
         }
 
+        .eyebrow { color: #2D6BD1; font-size: .94rem !important; font-weight: 700; opacity: 1 !important; margin-bottom: 1rem; }
+        .page-header { max-width: 820px; margin-inline: auto; }
+        .page-header h1 { font-size: clamp(2rem, 4.7vw, 3rem); line-height: 1.3; }
+        .contact-section h2 { font-size: clamp(1.6rem, 3vw, 2rem); }
+        .contact-links { margin-bottom: 1rem; }
+        .contact-card { border: 1px solid var(--sand-dark); border-bottom: 5px solid var(--sage-green); }
+        .contact-card:focus-visible, .community a:focus-visible { outline: 3px solid #2D6BD1; outline-offset: 4px; }
+        .community { text-align: center; padding: 1rem 0 2rem; }
+        .community h2 { font-size: 1.5rem; margin-bottom: .6rem; }
+        .community a { display: inline-block; margin-top: 1rem; font-weight: 700; color: var(--sage-green); }
         @media (max-width: 768px) {
             .page-header h1 { font-size: 2.5rem; }
             nav a { display: block; margin: 0.8rem 0; }
-            .contact-links { grid-template-columns: 1fr; }
+            .contact-links { grid-template-columns: 1fr; gap: 1rem; }
+            .container { padding: 2.5rem 1.1rem; }
+            .contact-section { padding: 1.5rem 1.1rem; }
+            .contact-card { padding: 1.6rem; }
+            .page-header p { font-size: 1.1rem; }
         }
     
         /* Compact mobile navigation - keep page content visible */
@@ -230,7 +245,7 @@
     <a href="index.html">בית</a>
     <a href="about.html">אודות</a>
     <a href="services.html">שירותים</a>
-    <a href="agents.html">סוכני AI 🤖</a>
+    <a href="agents.html">מערכות AI חכמות</a>
     <a href="products.html" class="ghost-btn">מאיפה מתחילים? 🧭</a>
     <a href="courses.html">קורסים וכלים</a>
     <a href="gifts.html">מתנות והשראה ✨</a>
@@ -239,46 +254,42 @@
 <button class="mobile-menu-toggle" type="button" aria-label="פתיחת תפריט" aria-expanded="false" aria-controls="mobile-site-nav">☰</button>
 </header>
 
-    <div class="container">
+    <main class="container">
         <div class="page-header">
-            <h1>בואו נתחבר</h1>
-            <p>רוצים לראות איך הבינה המלאכותית יכולה לשרת אתכם?</p>
+            <p class="eyebrow">בואו נדבר על העסק שלכם</p>
+            <h1>יש לכם רעיון? בואו נמצא איך להפוך אותו למשהו שעובד.</h1>
+            <p>אוטומציה שתחסוך התעסקות, כלי דיגיטלי שמתאים בדיוק לצורך שלכם, או מחשבה על הכנסת AI לעסק - אפשר להתחיל בשיחה פשוטה.</p>
         </div>
-
-        <div class="contact-section">
-            <h2>דרכי יצירת קשר</h2>
-            
+        <section class="contact-section" aria-labelledby="contact-title">
+            <h2 id="contact-title">איך נוח לכם ליצור קשר?</h2>
             <div class="contact-links">
-                <a href="https://did.li/cXyx5" target="_blank" class="contact-card">
-                    <div class="contact-icon">💬</div>
-                    <h3>קבוצת וואטסאפ</h3>
-                    <p>הצטרפו לקהילה האינטימית ומעוררת ההשראה שלי</p>
+                <a href="https://wa.me/972548383451?text=%D7%94%D7%99%D7%99%20%D7%A4%D7%A0%D7%99%D7%A0%D7%94%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%93%D7%91%D7%A8%20%D7%A2%D7%9C%20%D7%A4%D7%AA%D7%A8%D7%95%D7%9F%20AI%20%D7%9C%D7%A2%D7%A1%D7%A7" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon" aria-hidden="true">💬</div>
+                    <h3>וואטסאפ ישיר</h3>
+                    <p>הדרך הקצרה לשלוח הודעה ולספר לי במה אתם צריכים עזרה.</p>
                 </a>
-
-                <a href="https://linktr.ee/levlabina" target="_blank" class="contact-card">
-                    <div class="contact-icon">🌿</div>
-                    <h3>לינקטרי</h3>
-                    <p>כל ההדרכות, הקורסים והקישורים במקום אחד</p>
-                </a>
-
-                <a href="mailto:pninakar@gmail.com" class="contact-card">
-                    <div class="contact-icon">📧</div>
+                <a href="mailto:pninakar@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8" class="contact-card">
+                    <div class="contact-icon" aria-hidden="true">✉</div>
                     <h3>מייל</h3>
-                    <p>כתבו לי ישירות למייל</p>
+                    <p>מעדיפים לפרט את הרעיון או הצורך בכתב? אפשר לכתוב לי כאן.</p>
                 </a>
             </div>
-
             <div class="info-box">
-                <p><strong>אני כאן כדי להראות לכם שזה אפשרי.</strong></p>
-                <p>בכל מקרה - כתבו לי. דברו איתי. אני פה כדי ללוות אתכם בדרך.</p>
+                <p><strong>לא חייבים לדעת מראש איזה פתרון צריך.</strong></p>
+                <p>תארו את האתגר, התהליך או הרעיון שלכם, ונבדוק יחד מה נכון לעסק.</p>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="community" aria-labelledby="community-title">
+            <h2 id="community-title">רוצים גם תכנים ועדכונים על AI?</h2>
+            <p>אפשר להצטרף לקבוצת הוואטסאפ שלי ולעקוב אחרי תכנים וכלים שימושיים.</p>
+            <a href="https://did.li/cXyx5" target="_blank" rel="noopener noreferrer">הצטרפות לקבוצת הוואטסאפ</a>
+        </section>
+    </main>
 
     <footer>
     <p class="brand">פנינה קריוף AI לעסקים קטנים</p>
     <p style="font-size: 1rem; margin-bottom: 20px; opacity: 0.8; max-width: 600px; margin-left: auto; margin-right: auto;">
-        מרכז להטמעת בינה מלאכותית בעולם הטיפול, האימון והעסקים הרכים.
+        פתרונות AI, אוטומציות ומערכות דיגיטליות לעסקים קטנים.
     </p>
     <div class="legal-links">
         <a href="accessibility.html">הצהרת נגישות</a> | 
