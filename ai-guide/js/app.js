@@ -652,7 +652,7 @@ function renderEnding() {
         אם החוברת הזו עשתה לך סדר, בקבוצה שלי אני משתפת עוד תכנים, דוגמאות ודרכי עבודה פשוטות שיעזרו לך להשתמש ב-AI בצורה ברורה, פרקטית וחכמה יותר.<br><br>
         אם את עדיין לא שם, אפשר להצטרף כאן.
       </p>
-      <a href="https://chat.whatsapp.com/IQ7iKLBplPC2zJyArmbfuq"
+      <a href="https://did.li/cXyx5"
          target="_blank" rel="noopener noreferrer" class="btn-cta-link">
         הצטרפות לקבוצה
       </a>
